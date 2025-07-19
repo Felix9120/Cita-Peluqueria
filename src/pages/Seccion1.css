@@ -1,0 +1,105 @@
+@media only screen and (max-width: 375px) {
+  body {
+    background: linear-gradient(#f5d6cb, #f8f4f3);
+    padding: 20px;
+  }
+
+  .iconos {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .seccion {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .seccion button {
+    width: 118px;
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .seccion p {
+    font-size: 24px;
+  }
+
+  .modelos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .modelo2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .menu button {
+    border: none;
+
+  }
+
+  .hora {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .hora .activo {
+    color: #0F0F17;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ff5f2e;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  .hora button {
+    color: #0F0F17;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    font-size: 16px;
+  }
+
+  .save button {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    font-size: 16px;
+  }
+
+  
+
+}
